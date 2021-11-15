@@ -1,0 +1,540 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+
+.mt-8 {
+    margin-top: 8px;
+}
+
+.mt-16 {
+    margin-top: 16px;
+}
+
+.letter-space {
+    letter-spacing: 4px;
+    font-size: 30px;
+    font-weight: 400;
+
+}
+
+.center-screen {
+    width: 800px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 16px;
+  
+    
+}
+
+.text-center {
+    text-align: center;
+}
+
+.row-three {
+    width: calc(100% / 3);
+}
+
+.sub-title {
+    font-size: 15px;
+    margin: 25px;
+    opacity: 0.5;
+    font-style: italic;
+}
+
+.list-menu-pc li:nth-child(5) {
+    display: none;
+}
+
+.menu-mobile-bars {
+    height: 46px;
+}
+
+.menu-mobile-bars i:first-child {
+    color: rgb(255, 255, 255);  
+    font-size: 2em;
+    line-height: 46px;
+    padding: 0 10px;
+
+}
+
+.menu-mobile-bars i:first-child:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+.menu-mobile-bars {
+    display: none;
+}
+
+/* HEAD */
+#header {
+    background-color: black;
+    height: 46px;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    position: fixed;
+}
+
+
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    line-height: 46px;
+
+}
+
+.menu-pc {
+    width: 100%;
+}
+
+.list-menu-pc {
+    display: flex;
+    width: 100%;
+}
+
+.list-menu-pc > li {
+    display: flex;
+}
+
+.list-menu-pc > li:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+.list-menu-pc > li > a {
+    padding: 0 24px;
+    color: #fff;
+    width: 100%;
+}
+
+.list-menu-pc > li > a {
+    color: #fff;
+}
+
+.list-menu-pc > li:hover > a {
+    background-color: #ccc;
+    color: #000;
+}
+
+
+.sublist-menu-pc li a {
+    display: block;
+    color: #000;
+    padding: 2px 0 0 15px;
+}
+
+.sublist-menu-pc  {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.6);
+    display: none;
+    position: absolute;
+    margin-top: 46px;
+    min-width: 170px;
+    background-color: #fff;
+}
+
+.sublist-menu-pc li:hover a {
+    background-color: #ccc;
+}
+
+.list-menu-pc li:hover .sublist-menu-pc {
+    display: block;
+}
+
+.down_menu {
+    padding-left: 4px;
+}
+
+.search-pc {
+    color: #fff;
+    cursor: pointer;
+    padding: 0 24px;
+}
+
+.search-pc:hover {
+    background-color: rgb(214, 67, 56);
+}
+
+.search-pc i:first-child {
+    display: none;
+}
+/* HEAD */
+
+/* SLIDE */
+#slider {
+    margin-top: 46px;
+    padding-top: 50%;
+    background: url(../image/chicago.jpg) top center / cover no-repeat ;
+}
+
+.title_slider  {
+    padding: 32px 16px;
+    color: #fff;
+    text-shadow: 0 0 10px #000;;
+}
+
+.title_slider > h2 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.title_slider > p {
+    margin: 17px 0;
+    font-weight: 600;  
+    font-size: 14px;
+}
+
+
+
+.content_infor p:nth-child(3) {
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 14.5px;
+}
+
+.member {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 32px 0;
+}
+.list-member {
+    width: 150px;
+    max-width: 100%;
+}
+
+.list-member > p {
+    margin: 12px;
+    font-size: 15px;
+    opacity: 0.8;
+}
+
+.member-band {
+    max-width: 100%;
+    border-radius: 4px;
+}
+/* SLIDE */
+
+/* TOUR */
+#tour {
+    background-color: #000;
+}
+
+.title-tour {
+    color: #fff;
+}
+
+.month-tour {
+    background-color: #fff;
+    color: #757575;
+    font-size: 15px;
+}
+
+.month-tour > p {
+    padding: 8px 18px;
+    border-bottom: solid 1px #ddd;
+}
+
+.month-tour .sold-out {
+    color: #fff;
+    background-color: #f44336;
+    padding: 4px 8px;
+    margin-left: 16px;
+    font-size: 14px;
+}
+
+.month-tour .three {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    border-radius: 50px;
+    padding: 4px 8px;
+    float: right;
+    margin-top: -2px;
+}
+
+.place-tour {
+    padding-top: 32px ;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 -4px;
+    
+}
+
+.infor-place_tour {
+    margin: 0 4px;
+    background-color: #fff;
+}
+
+.img_tour {
+    width: 100%;
+}
+
+.content_infor-tour {
+    padding: 16px;
+    font-size: 13px;
+}
+
+.content_infor-tour > p {
+    margin: 15px 0;
+}
+
+.content_infor-tour > p:nth-child(2) {
+    opacity: 0.5;
+}
+
+.content_infor p:nth-child(3) {
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 14.5px;
+    padding: 0 -7px;
+}
+
+.content_infor-tour > label {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 8px 10px;
+}
+
+.content_infor-tour > label:hover {
+    background-color: #ccc;
+    color: #000;
+}
+/* TOUR */
+
+/* CONTACT */
+.sub-contact {
+    display: flow-root
+}
+
+.row.infor-contact {
+    display: flex;
+}
+
+.half-col-left i[class*="fa-"] {
+    display: inline-flex;
+    width: 30px;
+    
+}
+
+.half-col-left {
+    width: 50%;
+}
+
+.half-col-right {
+    width: 50%;
+}
+
+.sub-row-half-right {
+    padding: 0 8px;
+}
+
+.row-half-right {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -8px;
+}
+
+
+
+.col-half-right {
+    display: flex;
+}
+
+.sub-col-half-right {
+    width: 100%;
+}
+
+.form-contact {
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 40px;
+    padding: 4px;
+}
+
+.send-input {
+    background-color: #000;
+    border: none;
+    color: #fff;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.send-input:hover {
+    background-color: #ccc;
+    color: #000;
+}
+/* CONTACT */
+
+/* FOOTER */
+.map {
+    padding-top: 50%;
+    background: url(../image/map.jpg) top center / cover no-repeat
+}
+
+.social_contact {
+    text-align: center;
+    font-size: 22px;
+    opacity: 0.6;
+}
+
+.social_contact i[class*="fa-"]:hover {
+    opacity: 0.4;
+}
+
+.link-w3css {
+    margin: 20px;
+    font-size: 15px;
+}
+
+.link-w3css > p > a {
+    margin-left: 4px;
+    color: #000;
+    text-decoration: underline;
+}
+
+/* FOOTER */
+
+
+/* MODAL */
+    .modal {
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.3);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        position: fixed;
+    }
+
+
+    .modal-container {
+        min-height: 200px;
+        background-color: #fff;
+        width: 80%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+    }
+
+    .head_modal {
+        display: flex;
+        flex-direction: column;
+        background-color: #009688;
+        height: 130px;
+    }
+
+    .close-modal {
+        display: inline-flex;
+        justify-content: right;
+        font-size: 24px;
+    }
+
+    .close-modal > i:first-child {
+        padding: 8px 16px;
+        color: #fff;
+    }
+    .body_modal > div:last-child > button:hover,
+    .close-modal > i:first-child:hover {
+        background-color: #ddd;
+        color: #000;
+    }
+
+    .title-modal {
+        display: inline-flex;
+        letter-spacing: 4px;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-size: 30px;
+    }
+
+    .title-modal > p {
+        margin-left: 15px;
+    }
+    .footer_modal,
+    .body_modal {
+        padding:  16px;
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+    }
+
+    .body_modal > div:nth-child(1n + 0)  {
+        display: flex;
+        letter-spacing: 2px;
+    }
+
+    .body_modal > div:nth-child(2n + 0) {
+        margin: 15px 0;
+    }
+
+    .body_modal > div:nth-child(2n + 0) > input {
+        padding: 8px ;
+        width: 100%;
+    }
+
+    .body_modal > div:last-child {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .body_modal > div:last-child > button {
+        background-color: #009688;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        color: #fff;
+        height: 50px;
+    }
+
+    .footer_modal {
+        text-align: right;
+    }
+
+    .footer_modal > p > a {
+        color: rgb(35, 134, 226);
+        text-decoration: underline;
+    }
+    /* MODAL */
+    .modal {
+        display: none;
+    }
+
+    .click-open-modal:checked ~ .modal {
+        display: flex;
+    }
+
+    .modal-container {
+        animation: fadeIn 0.4s ;
+    }
+
+    .close-modal:hover {
+        cursor: pointer;
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(-100%);
+
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0%);
+
+        }
+    }

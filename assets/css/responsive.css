@@ -1,0 +1,149 @@
+/* PC */
+@media (min-width:1024px) {
+    
+}
+/* PC */
+
+/* TABLET */
+@media (min-width:740px) and (max-width:1023px) {
+    .content_infor p:nth-child(3) {
+        font-size: 13.5px;
+    }
+}
+/* TABLET */
+
+/* MOBILE */
+@media (max-width:739px) {
+    /* NAVIGATION */
+
+    #nav {
+        background-color: #000;
+        width: 100%;
+    }
+
+
+    .list-menu-pc {
+        display: flow-root;
+    }
+
+    .list-menu-pc li:first-child {
+        display: inline-flex;
+    }
+
+    .list-menu-pc li:nth-child(5) {
+        display: flex;
+    }
+
+    .list-menu-pc li:last-child {
+        display: none;
+    }
+
+    .sublist-menu-pc {
+        display: none;
+    }
+
+
+    .search-pc {
+        height: 46px;
+    }
+
+    .search-pc:hover {
+        background-color: #ccc;
+        color: #000;
+    }
+
+    .search-pc i:first-child {
+        display: inline-flex;
+    }
+
+    .search-pc i:nth-child(2) {
+        display: none;
+    }
+    .menu-mobile-bars {
+        display: flex;
+    }
+    /* .list-menu-pc li:nth-child(5),
+    .list-menu-pc .change-on-mobile {
+        display: none ; 
+    } */
+    #header {
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+
+     .search-pc {
+        display: none;
+    }
+
+    .menu-mobile-bars {
+        color: #fff;
+    } 
+    /* NAVIGATION */
+
+    /* SLIDER */
+    .title_slider {
+        display: none;
+    }
+    /* MEMBER */
+    .member {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .list-member {
+        width: 60%;
+    }
+    /* MEMBER */
+
+    /* TOUR */
+
+
+    .place-tour {
+        flex-direction: column;
+        margin: 8px 0;
+    }
+
+    .infor-place_tour {
+        margin: 2% 0;
+    }
+
+    .width-full {
+        height: 50px;
+        width: 100%;
+    }
+
+    /* TOUR */
+
+    /* CONTACT */
+    .row.infor-contact {
+        flex-direction: column;
+    }
+    .half-col-left,
+    .half-col-right {
+        width: 100%;
+    }
+
+    .half-col-left {
+        text-align: center;
+    }
+
+    .row-half-right {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .sub-row-half-right {
+        padding: 8px 0
+    
+    }
+    .col-half-right {
+        display: flex;
+    }
+    /* CONTACT */
+
+}
+/* MOBILE */
+
+
